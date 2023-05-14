@@ -1,0 +1,6 @@
+The elevator will finish all UP requests before starting DOWN requests. 
+Assume that the elevator going up has more priority than going down, which means that when the elevator is in IDLE state, 
+and has both up and down requests, it will execute up requests first.
+I used a max heap to store all down requests and sort them by their desired floor. 
+Similarly, a min heap to store all up requests and sort them by their desired floor.
+When, the requester is outside of the elevator, the elevator needs to stop at the currentFloor of the requester, before going to the desiredFloor of the requester.

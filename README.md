@@ -1,7 +1,7 @@
 # Elevator-Design-System
 A console application in Java using OOP principles that simulates the movement of elevators.
 
-An elevator has the following behaviours:
+An elevator has the following behaviours;
 When an elevator is going up or down, it will stop at all the floors that the users requested.
 If the elevator received a request of going down while it is going up, the elevator will go to the highest floor in the current requests, and then go down.
 Users can send requests at anytime.
